@@ -1,0 +1,18 @@
+.container
+{
+    display: flex;
+}
+
+
+.tabview
+{
+    width: calc(100% - var(--online-mathisis-chapterbar-width));
+    height: calc(100vh - var(--online-mathisis-topbar-height));
+    background-color: red;
+}
+
+
+.chapterview
+{
+    background-color: blue;
+}
