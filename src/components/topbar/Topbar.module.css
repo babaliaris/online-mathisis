@@ -1,0 +1,26 @@
+.container
+{
+    display: flex;
+    align-items: center;
+    height: var(--online-mathisis-topbar-height);
+    box-shadow: 0 0 1rem var(--online-mathisis-topbar-box-shadow);
+}
+
+
+.logo_column
+{
+    flex: 0.01;
+    margin-left: 1rem;
+}
+
+
+.title_column
+{
+    flex: 1;
+}
+
+
+.logo
+{
+    font-size: 3.8rem;
+}

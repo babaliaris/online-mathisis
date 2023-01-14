@@ -1,4 +1,7 @@
 body
 {
     font-family: 'Roboto', sans-serif;
+
+    --online-mathisis-topbar-height: 4rem;
+    --online-mathisis-topbar-box-shadow: black;
 }
