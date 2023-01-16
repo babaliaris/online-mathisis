@@ -48,8 +48,22 @@ function Course()
 
 
             <MUI.Box
+            bgcolor={"background.default"}
+            borderColor="divider"
             className={styles.chapterview}
             >
+                <MUI.Typography
+                className={styles.course_name}
+                variant="body1"
+                component="h1"
+                >
+                    Αρχή και διατήρηση της μηχανικής ενέργειας
+                </MUI.Typography>
+
+                <MUI.Divider
+                className={styles.divider}
+                />
+
                 <Chaptersbar/>
                 
             </MUI.Box>

@@ -3,7 +3,6 @@
     display: flex;
 }
 
-
 .main_area
 {
     width: calc(100% - var(--online-mathisis-chapterbar-width));
@@ -11,7 +10,30 @@
 }
 
 
+.course_name
+{
+    font-size: 1.4rem;
+    font-style: italic;
+    text-align: center;
+    overflow-x: auto;
+}
+
+
+.divider
+{
+    margin-bottom: 0.5rem;
+}
+
+
 .chapterview
 {
-    background-color: blue;
+    width: var(--online-mathisis-chapterbar-width);
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    border-left-style: solid;
+    border-top-style: solid;
+    border-top-left-radius: 0.4rem;
+    border-width: 0.1rem;
+    padding: 0.5rem;
 }
