@@ -8,6 +8,10 @@ import * as I18n from 'react-i18next';
 import PhoneIcon from '@mui/icons-material/Phone';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import PersonPinIcon from '@mui/icons-material/PersonPin';
+import VideoLecture from "./video-lecture/VideoLecture";
+import WrittenLecture from "./written-lecture/WrittenLecture";
+import CourseExercises from "./course-exercises/CourseExercises";
+import CourseComments from "./course-comments/CourseComments";
 
 function Course()
 {
@@ -41,7 +45,22 @@ function Course()
                 <MUI.Box
                 className={styles.tabview}
                 >
-                    tabview
+                    {
+                        tab_value === 0 ? <VideoLecture/> : null
+                    }
+
+                    {
+                        tab_value === 1 ? <WrittenLecture/> : null
+                    }
+
+                    {
+                        tab_value === 2 ? <CourseExercises/> : null
+                    }
+
+                    {
+                        tab_value === 3 ? <CourseComments/> : null
+                    }
+
                 </MUI.Box>
                 
             </MUI.Box>
