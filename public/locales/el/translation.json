@@ -1,3 +1,7 @@
 {
-    "title": "Online Mathisis"
+    "title": "Online Mathisis",
+    "video_tab": "Βιντεο Διαλεξη",
+    "written_tab": "Γραπτη Διαλεξη",
+    "exercises_tab": "Ασησεις",
+    "comments_tab": "Σχολια"
 }

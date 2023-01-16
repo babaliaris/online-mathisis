@@ -1,3 +1,7 @@
 {
-    "title": "Online Mathisis"
+    "title": "Online Mathisis",
+    "video_tab": "Video Lecture",
+    "written_tab": "Written Lecture",
+    "exercises_tab": "Exercises",
+    "comments_tab": "Comments"
 }
