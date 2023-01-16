@@ -28,9 +28,12 @@ function Course()
         className={styles.container}
         >
 
+            {/*Main Area*/}
             <MUI.Box
             className={styles.main_area}
             >
+                
+                {/*Tab Layout*/}
                 <MUI.Tabs
                 value={tab_value}
                 onChange={onTabChaged}
@@ -42,6 +45,7 @@ function Course()
                 </MUI.Tabs>
 
 
+                {/*Tab View Area*/}
                 <MUI.Box
                 className={styles.tabview}
                 >
@@ -65,12 +69,16 @@ function Course()
                 
             </MUI.Box>
 
+            
 
+            {/*Course Chapter Area*/}
             <MUI.Box
             bgcolor={"background.default"}
             borderColor="divider"
             className={styles.chapterview}
             >
+
+                {/*Course Title*/}
                 <MUI.Typography
                 className={styles.course_name}
                 variant="body1"
@@ -78,11 +86,13 @@ function Course()
                 >
                     Αρχή και διατήρηση της μηχανικής ενέργειας
                 </MUI.Typography>
-
+                
+                {/*Divider*/}
                 <MUI.Divider
                 className={styles.divider}
                 />
-
+                
+                {/*Course Chapters Component*/}
                 <Chaptersbar/>
                 
             </MUI.Box>
