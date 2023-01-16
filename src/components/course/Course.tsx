@@ -18,6 +18,8 @@ function Course()
     const {t} = I18n.useTranslation();
     const [tab_value, setTabValue] = React.useState(0);
 
+
+    //Set the tabs.
     const onTabChaged = React.useCallback((event: React.SyntheticEvent<Element, Event>, value: any)=>
     {
         setTabValue(value);
