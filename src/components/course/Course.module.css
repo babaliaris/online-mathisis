@@ -10,6 +10,20 @@
 }
 
 
+.tab_layout
+{
+    height: var(--online-mathisis-course-tab-layout-height);
+}
+
+
+.tabview
+{
+    padding-top: var(--online-mathisis-course-tab-view-padding);
+    padding-left: var(--online-mathisis-course-tab-view-padding);
+    padding-right: var(--online-mathisis-course-tab-view-padding);
+}
+
+
 .course_name
 {
     font-size: 1.4rem;

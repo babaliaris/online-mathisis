@@ -1,0 +1,14 @@
+.container
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: calc(100vh - var(--online-mathisis-topbar-height) - var(--online-mathisis-course-tab-layout-height) - var(--online-mathisis-course-tab-view-padding));
+}
+
+
+.iframe
+{
+    flex: auto;
+    width: 100%;
+}

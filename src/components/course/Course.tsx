@@ -8,7 +8,7 @@ import * as I18n from 'react-i18next';
 import PhoneIcon from '@mui/icons-material/Phone';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import PersonPinIcon from '@mui/icons-material/PersonPin';
-import VideoLecture from "./video-lecture/VideoLecture";
+import YoutubePlayer from "./video-lecture/YoutubePlayer";
 import WrittenLecture from "./written-lecture/WrittenLecture";
 import CourseExercises from "./course-exercises/CourseExercises";
 import CourseComments from "./course-comments/CourseComments";
@@ -37,6 +37,7 @@ function Course()
                 
                 {/*Tab Layout*/}
                 <MUI.Tabs
+                className={styles.tab_layout}
                 value={tab_value}
                 onChange={onTabChaged}
                 centered>
@@ -52,7 +53,7 @@ function Course()
                 className={styles.tabview}
                 >
                     {
-                        tab_value === 0 ? <VideoLecture/> : null
+                        tab_value === 0 ? <YoutubePlayer video_id="3wJgTS_T3AI"/> : null
                     }
 
                     {

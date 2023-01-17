@@ -6,4 +6,6 @@ body
     --online-mathisis-topbar-box-shadow: black;
 
     --online-mathisis-chapterbar-width: 16rem;
+    --online-mathisis-course-tab-layout-height: 4rem;
+    --online-mathisis-course-tab-view-padding: 1rem;
 }
